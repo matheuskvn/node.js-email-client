@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 app.get('/send', async (req, res) => {
     try {
         await transporter.sendMail({
-            to: 'your_email@gmail.com',
+            to: 'destination@gmail.com',
             subject: 'Node.js test',
             text: 'E-mail sent via Nodemailer!'
         });
