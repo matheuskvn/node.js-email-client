@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-email-client",
+  "version": "1.0.0",
+  "description": "Node.js email client",
+  "license": "ISC",
+  "author": "Brandt de Moura Matheus",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "dotenv -e .env node --watch index.js"
+  },
+  "dependencies": {
+    "envconfig": "^1.0.2",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.5"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0"
+  }
+}
